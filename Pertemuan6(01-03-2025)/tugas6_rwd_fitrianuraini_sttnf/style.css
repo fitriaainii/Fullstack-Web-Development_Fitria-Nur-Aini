@@ -1,0 +1,79 @@
+<style>
+.nav-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 50px; 
+}
+.nav-container a {
+    margin: 0 30px; 
+    text-decoration: none;
+    font-size: 18px;
+}
+.div{
+    flex: 1;
+    padding: 25px 25px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    flex: 1;
+    padding: 25px;
+}
+.left p{
+    line-height: 2.10;
+
+}
+.right{
+    flex: 1;
+    padding: 25px;
+}
+.right p{
+    line-height: 2.10;
+}
+
+html, body{
+    max-width: 100%;
+}
+.carousel{
+    width: 1700px;
+    height: 240px;
+}
+.logo-nfa{
+    width: 150px;
+}
+.nav-link{
+    margin: 10px 50px;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    font-size: 20px;
+    height: 450px;
+    justify-content: space-between;
+}
+
+aside {
+    width: 20%;
+    padding: 20px;
+    background: rgb(245, 244, 244);
+    border: 5px solid rgb(245, 244, 244);
+}
+
+main {
+    width: 80%;
+    padding: 20px;
+    background: rgb(245, 244, 244);
+    border: 5px solid rgb(245, 244, 244);
+    padding-top: auto;
+}
+.card{
+    margin-top: 20px;
+}
+.header{
+    background-color:rgb(245, 244, 244) ;
+}
+</style>
